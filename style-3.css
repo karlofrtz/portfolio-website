@@ -1,0 +1,166 @@
+:root {
+    --bgColor: #0c0c0c;
+    --textMain: #fafafa;
+    --accentColor: #FF8B1C;
+    --itemGap: 20px;
+    --scrollBehavior: smooth;
+}
+
+@keyframes slickFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+    margin: 0;
+    background: var(--bgColor);
+    color: var(--textMain);
+    font-family: "Google Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    opacity: 0;
+    animation-name: slickFadeIn;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.header {
+    width: 100%;
+    max-width: 1200px;
+    background: #000;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.stickyHeader {
+    position: relative;
+    top: -10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    background-color: var(--bgColor);
+    z-index: 1000;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.branding h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.branding p {
+    margin: 8px 0 0 0;
+    color: var(--accentColor);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    gap: 80px;
+}
+
+.navGroup h3 {
+    margin: 0 0 15px 0;
+    color: #999;
+    font-size: 1.0rem;
+    font-weight: 600;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.navGroup ul li a {
+    color: var(--textMain);
+    transition: color 0.3s ease;
+    display: block;
+    text-align: right;
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navGroup ul li a:hover {
+    color: var(--accentColor);
+}
+
+.navGroup ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navGroup li a {
+    text-decoration: none;
+}
+
+.aboutContent {
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.profileImageWrapper {
+    flex: 0 0 auto;
+}
+
+.profileImage {
+    width: 330px;
+    height: 330px;
+    object-fit: cover;
+    display: block;
+}
+
+.bioTextWrapper {
+    text-align: left;
+    color: #fff;
+}
+
+.bioSubheading {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: var(--accentColor);
+    font-weight: 400;
+}
+
+.bioNameHeading {
+    font-size: 4rem;
+    margin: 0 0 20px 0;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.bioParagraph {
+    font-size: 1.18rem;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.4;
+    max-width: 625px;
+    margin: 0 auto;
+}

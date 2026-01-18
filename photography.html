@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Karlo Fortez</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+    <link rel="alternate icon" type="image/png" href="favicon/favicon-alt.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="stickyHeader">
+        <div class="branding">
+            <h1>Karlo Fortez</h1>
+            <p>Graphic Designer & Multimedia Artist</p>
+        </div>
+        <nav>
+            <div class="navGroup">
+                <h3>Projects</h3>
+                <ul>
+                    <li><a href="index.html">Graphic Design</a></li>
+                    <li><a href="video-editing.html">Video Editing</a></li>
+                    <li><a href="photography.html">Photography</a></li>
+                </ul>
+            </div>
+            <div class="navGroup">
+                <h3>Biography</h3>
+                <ul>
+                    <li><a href="about-me.html">About Me</a></li>
+                    <li><a href="resume/CV_Resume.pdf" download="CV_Resume">CV Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contentArea">
+        <div id="heroWrapper" class="heroContainer">
+                <div class="gridBlock">
+                    <div class="row">
+                        <div class="card"><img src="img/landscape.jpg" alt="landscape"></div>
+                        <div class="card"><img src="img/landscape-2.jpg" alt="landscape-2"></div>
+                        <div class="card"><img src="img/landscape-3.jpg" alt="landscape-3"></div>
+                        <div class="card"><img src="img/photography-3.jpg" alt="photography-3"></div>
+                    </div>
+                    <div class="row">
+                        <div class="card"><img src="img/photography-2.jpg" alt="photography-2"></div>
+                        <div class="card"><img src="img/photography-4.jpg" alt="photography-4"></div>
+                        <div class="card"><img src="img/photography-5.jpg" alt="photography-5"></div>
+                        <div class="card"><img src="img/photography.jpg" alt="photography"></div>
+                        <div class="card"><img src="img/productshot.jpg" alt="productshot"></div>
+                    </div>
+                </div>  
+            </div>      
+        </div>
+    </main>
+
+    <div id="imageModal" class="modalOverlay">
+        <span id="closeButton" class="closeButton">&times;</span>
+        <img id="modalImage" src="" alt="Preview">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
