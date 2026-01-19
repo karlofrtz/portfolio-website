@@ -6,6 +6,7 @@ const menuToggle = document.getElementById('menuToggle');
 const mainNav = document.getElementById('mainNav');
 const navLinks = document.querySelectorAll('#mainNav a');
 
+
 cards.forEach(card => {
     card.addEventListener("click", () => {
         const imageSource = card.querySelector("img").src;
@@ -27,6 +28,8 @@ window.onclick = (event) => {
 menuToggle.addEventListener('click', () => {
     menuToggle.classList.toggle('isOpen');
     mainNav.classList.toggle('isActive');
+    
+    document.body.classList.toggle('no-scroll');
     
     if (mainNav.classList.contains('isActive')) {
         document.body.style.overflow = 'hidden';

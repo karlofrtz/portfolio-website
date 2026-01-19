@@ -6,6 +6,8 @@ menuToggle.addEventListener('click', () => {
     menuToggle.classList.toggle('isOpen');
     mainNav.classList.toggle('isActive');
     
+    document.body.classList.toggle('no-scroll');
+
     if (mainNav.classList.contains('isActive')) {
         document.body.style.overflow = 'hidden';
     } else {

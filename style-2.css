@@ -6,6 +6,11 @@
     --scrollBehavior: smooth;
 }
 
+body.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
 html, body {
     width: 100%;
     max-width: 100vw;
@@ -185,6 +190,8 @@ nav {
 
     .menuToggle {
         display: flex;
+        position: relative;
+        z-index: 2100;
     }
 
     nav {
