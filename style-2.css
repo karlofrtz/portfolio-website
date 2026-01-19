@@ -8,7 +8,7 @@
 
 html.no-scroll, body.no-scroll {
     overflow: hidden !important;
-    touch-action: none;
+    overscroll-behavior: none;
 }
 
 html, body {
@@ -224,6 +224,7 @@ nav {
         visibility: visible;
         pointer-events: auto;
         transition: transform 0.4s ease, visibility 0s linear 0s;
+        touch-action: none;
     }
 
     .branding h1 {
