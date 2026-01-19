@@ -226,6 +226,7 @@ nav {
     .menuToggle.isOpen {
         position: fixed;
         right: 25px;
+        z-index: 2100;
     }
 
     nav {
