@@ -6,9 +6,10 @@
     --scrollBehavior: smooth;
 }
 
-body.no-scroll {
-    overflow: hidden;
-    height: 100vh;
+html.no-scroll, body.no-scroll {
+    overflow: hidden !important;
+    height: 100% !important;
+    touch-action: none;
 }
 
 html, body {
@@ -221,6 +222,11 @@ nav {
         display: flex;
         position: relative;
         z-index: 2100;
+    }
+
+    .menuToggle.isOpen {
+        position: fixed;
+        right: 25px;
     }
 
     nav {
