@@ -41,11 +41,6 @@ body {
     animation-fill-mode: forwards;
 }
 
-.header {
-    width: 100%;
-    max-width: 1200px
-}
-
 .stickyHeader {
     position: relative;
     top: -10px;
