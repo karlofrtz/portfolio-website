@@ -3,7 +3,6 @@
     --textMain: #fafafa;
     --accentColor: #FF8B1C;
     --itemGap: 20px;
-    --scrollBehavior: smooth;
 }
 
 html.no-scroll, body.no-scroll {
@@ -40,6 +39,11 @@ body {
     animation-duration: 0.8s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
+}
+
+.header {
+    width: 100%;
+    max-width: 1200px
 }
 
 .stickyHeader {

@@ -3,7 +3,6 @@
     --textMain: #fafafa;
     --accentColor: #FF8B1C;
     --itemGap: 20px;
-    --scrollBehavior: smooth;
 }
 
 html.no-scroll, body.no-scroll {
@@ -45,9 +44,6 @@ body {
 .header {
     width: 100%;
     max-width: 1200px;
-    background: var(--bgColor);
-    border-radius: 4px;
-    overflow: hidden;
 }
 
 .stickyHeader {
