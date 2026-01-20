@@ -8,7 +8,8 @@
 
 html.no-scroll, body.no-scroll {
     overflow: hidden !important;
-    overscroll-behavior: none;
+    height: !important;
+    touch-action: none;
 }
 
 html, body {
@@ -228,7 +229,6 @@ nav {
     .menuToggle.isOpen {
         position: fixed;
         right: 25px;
-        z-index: 2100;
     }
 
     nav {
@@ -256,7 +256,6 @@ nav {
         visibility: visible;
         pointer-events: auto;
         transition: transform 0.4s ease, visibility 0s linear 0s;
-        touch-action: none;
     }
 
     .branding h1 {
