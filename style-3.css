@@ -244,16 +244,14 @@ nav {
         transition: transform 0.4s ease, visibility 0s linear 0.4s;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         gap: 40px;
-        padding: 100px 0;
-        box-sizing: border-box;
+        padding: 0;
     }
 
     nav.isActive {
         transform: translateX(0);
-        justify-content: center;
         visibility: visible;
         pointer-events: auto;
         transition: transform 0.4s ease, visibility 0s linear 0s;
