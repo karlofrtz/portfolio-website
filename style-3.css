@@ -248,7 +248,6 @@ nav {
         align-items: center;
         gap: 40px;
         padding: 0;
-        box-sizing: border-box;
     }
 
     nav.isActive {
