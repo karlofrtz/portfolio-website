@@ -58,12 +58,13 @@ body {
 
 .branding h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
+    line-height: 1.4;
     font-weight: 600;
 }
 
 .branding p {
-    margin: 8px 0 0 0;
+    margin: 0 0 0 0;
     color: var(--accentColor);
     font-size: 1.25rem;
     font-weight: 500;
@@ -118,7 +119,7 @@ nav {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 40px 80px;
+    padding: 50px 80px;
     box-sizing: border-box;
     background: var(--bgColor);
 }
@@ -126,14 +127,13 @@ nav {
 .textWrapper {
     text-align: center;
     margin-bottom: 40px;
-    max-width: 900px;
 }
 
 .projectTitle {
     font-size: 2.3rem;
-    margin: 0 0 15px 0;
     color: var(--textMain);
     font-weight: 600;
+    margin: 0 0 18px 0;
 }
 
 .projectDescription {
@@ -141,7 +141,6 @@ nav {
     margin: 0;
     color: var(--accentColor);
     font-weight: 400;
-    line-height: 1.0;
 }
 
 .videoContainer {
@@ -218,15 +217,14 @@ nav {
     }
 
     .branding h1 {
-        font-size: 2.5rem;
-        line-height: 1;
+        font-size: 2.3rem;
+        line-height: 1.4;
         white-space: nowrap;
         margin-top: 4px;
     }
 
     .branding p {
-        font-size: 1.25rem;
-        line-height: 1.4;
+        font-size: 1.2rem;
     }
 
     .navGroup h3 {
@@ -238,16 +236,15 @@ nav {
         font-size: 1.5rem;
     }
 
-    .videoSection {
-        flex-direction: column;
-        padding: 20px 20px;;
-        box-sizing: border-box;
-    }
-
     .contentArea {
         display: flex;
         flex-direction: column;
-        padding-top: 0;
+    }
+
+    .videoSection {
+        flex-direction: column;
+        padding: 25px 15px;;
+        box-sizing: border-box;
     }
 
     .videoContainer {
@@ -263,16 +260,15 @@ nav {
 
     .projectTitle {
         font-size: 1.6rem;
-        margin: 0 0 20px 0;
         color: var(--textMain);
         font-weight: 600;
+        margin: 0 0 12px 0;
     }
 
     .projectDescription {
         font-size: 1rem;
         color: var(--accentColor);
         font-weight: 400;
-        line-height: 0;
     }
 
     .menuToggle.isOpen span:nth-child(1) {
