@@ -126,7 +126,7 @@ nav {
 
 .textWrapper {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 .projectTitle {
@@ -243,7 +243,7 @@ nav {
 
     .videoSection {
         flex-direction: column;
-        padding: 25px 15px;;
+        padding: 30px 15px;;
         box-sizing: border-box;
     }
 
